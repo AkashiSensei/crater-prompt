@@ -30,7 +30,9 @@
 
 ---
 
-这里使用英文给出关联的 ISSUE，可能是解决了某个 ISSUE，也可能只是相关，如果没有是相关还是解决，你需要询问用户。
+这里使用英文给出关联的 ISSUE，可能是解决了某个 ISSUE，也可能只是相关，需要使用 GitHub 能够自动识别的方式列举，方便 GitHub 自动关闭 ISSUE 等。
+
+如果有多个 ISSUE，每行提供一个，不要使用逗号的方式在一行内给出多个，这样 Github 不能自动识别。
 
 ```
 
@@ -83,6 +85,8 @@ As a developer, you need to use `make install-hooks` in the main repository to i
 ---
 
 Resolve #208
+
+Resolve #209
 ```
 
 特别说明：
